@@ -1,0 +1,213 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	font-family:'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+ #header-nav {
+ 	background-color: #808080;
+ 	border-radius: 0;
+ 	border: 0;
+}
+
+ .navbar-brand {
+ 	padding-top: 25px;
+ }
+
+ .menu1 {
+  border: 1px solid #000000;
+  color: #000000;
+ }
+
+ .menu2 {
+  border: 1px solid #000000;
+ }
+
+ .menu3 {
+  border: 1px solid #000000;
+ }
+
+ .navbar-brand h1 { /* Resturant name */
+ 	font-family: 'Lora', serif;
+ 	color: #000000;
+ 	font-size: 1.5em;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	text-shadow: 1px 1px 1px #222;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+ 	line-height: .75;
+ }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+  	text-decoration: none;
+  }
+
+   .navbar-brand p { /*Surbhi cert */
+   	color: #000;
+   	text-transform: uppercase;
+   	font-size: .7em;
+   	 margin-top: 15px;
+   	}
+   	.navbar-brand p span { /* Star-K */
+   		vertical-align: middle;
+
+   	}
+   	#nav-list {
+   		margin-top: 10px;
+   	}
+
+   	#nav-list a:hover {
+   		background: #E7E7E7;
+	}
+	#nav-list a span {
+		}
+
+     .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+     	border: 2px solid #000000;
+     }
+
+     .navbar-header button.navbar-toggle {
+     	clear: both;
+     	margin-top: -30px;
+     }
+     /* END HEADER */
+    
+     
+     .container h2 { /* Resturant name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+ }
+
+  #container  {
+  color: #000000;
+        top: 0;
+        right: 0;
+        width: 80%;
+        height: 50%;
+        font-size: 1.6em;
+        background-color: #808080;
+        background-position: center;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+        
+ }
+
+  #main-content h2 {
+    color: #000000;
+  }
+
+  #main-head span {
+    font-size:1.1em;
+    color: #000000;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+#p1{
+    
+      
+      top: 0;
+      width: 80px;
+      height: 30px;
+      border: 2px solid black;
+
+    }
+@media (min-width: 1200px){
+      .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, 
+      .col-lg-11, .col-lg-12{
+        float: left;
+
+      }
+      .col-lg-1{
+        width: 8.33%;
+      }
+      .col-lg-2{
+        width: 16.66%;
+      }
+      .col-lg-3{
+        width: 25%;
+      }
+      .col-lg-4{
+        width: 33%;
+      }
+      .col-lg-5{
+        width: 41.66%;
+      }
+      .col-lg-6{
+        width: 50%;
+      }
+      .col-lg-7{
+        width: 58.33%;
+      }
+      .col-lg-8{
+        width: 66.66%;
+      }
+      .col-lg-9{
+        width: 74.99%;
+      }
+      .col-lg-10{
+        width: 83.33%;
+      }
+      .col-lg-11{
+        width: 91.66%;
+      }
+      .cpl-lg-12{
+        width: 100%;
+      }
+    }
+      @media (min-width: 950px) and (max-width: 1199px){
+        .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, 
+      .col-md-11, .col-md-12{
+        float: left;
+        border: 1px solid green;
+
+      }
+      .col-md-1{
+        width: 8.33%;
+      }
+      .col-md-2{
+        width: 16.66%;
+      }
+      .col-md-3{
+        width: 25%;
+      }
+      .col-md-4{
+        width: 33%;
+      }
+      .col-md-5{
+        width: 41.66%;
+      }
+      .col-md-6{
+        width: 50%;
+      }
+      .col-md-7{
+        width: 58.33%;
+      }
+      .col-md-8{
+        width: 66.66%;
+      }
+      .col-md-9{
+        width: 74.99%;
+      }
+      .col-md-10{
+        width: 83.33%;
+      }
+      .col-md-11{
+        width: 91.66%;
+      }
+      .col-md-12{
+        width: 100%;
+      }
+
+      }
